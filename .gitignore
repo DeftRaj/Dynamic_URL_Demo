@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -22,3 +23,18 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+=======
+backend/node_modules/
+frontend/node_modules/
+
+frontend/.env*
+backend/.env*
+
+!**/.env.example 
+
+
+# ---- Editor ----
+.vscode/*
+!.vscode/settings.json
+.idea/
+>>>>>>> 0ab8f16 (made a backend and APIs tonnect frontend and backend ,applied basic style)
